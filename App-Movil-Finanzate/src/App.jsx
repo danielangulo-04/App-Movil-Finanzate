@@ -1,9 +1,5 @@
-// App.jsx
-import React from "react";
-import StudentProfile from "./pages/StudentProfile";
+import StudentProfileScreen from "./src/screens/StudentProfileScreen.jsx";
 
-const App = () => {
-    return <StudentProfile />;
-};
-
-export default App;
+export default function App() {
+    return <StudentProfileScreen />;
+}
